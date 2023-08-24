@@ -16,7 +16,8 @@ function App() {
 					backgroundColor: '#FFC', boxShadow: '5px 10px 8px #888888'}}
 				>
 					<h1>Code test</h1>
-					<p>Each square cycles through green and blue values, from 7 to 255 in steps of 8.</p>
+					<p>Each square cycles through green and blue values (with a fixed red value),
+						 from 7 to 255 in steps of 8.</p>
 				</div>
 				{redValues.map((item) => (
 					<Canvas redValue={item}/>
